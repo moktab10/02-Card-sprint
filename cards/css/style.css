@@ -1,0 +1,46 @@
+/* Import fonts from Google Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700");
+
+/* Importing all components file */
+@import url("components/category-cards.css");
+@import url("components/product-cards.css");
+@import url("components/trip-cards.css");
+
+/* General for fonts and colors */
+body {
+  margin: 100px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

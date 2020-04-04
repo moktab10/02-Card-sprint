@@ -1,0 +1,50 @@
+.card-trip {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-top: 24px;
+}
+
+.card-trip:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.trip-description {
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+
+#img-trip {
+width: 600px;
+}
+
+#h2-p {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#h2-p p {
+  margin-top: 0px;
+}
+
+#h2-p h2 {
+  margin-bottom: 0px;
+}
+
+.card-trip-pricing {
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-size: 25px;
+}
+.image-avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  position: absolute;
+  right: 50px;
+  top: -28px;
+}
+

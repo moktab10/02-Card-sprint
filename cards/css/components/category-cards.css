@@ -1,0 +1,35 @@
+/* Your card CSS file */
+.card-category {
+background: url(../../images/bob-marley.jpg) center;
+background-size: cover;
+height: 190px;
+border-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+margin:0;
+}
+
+.card-category:hover {
+box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.card-category h1 {
+font-weight: 700;
+color: #f5f5f5;
+text-shadow: 1px 1px 1px #919191,
+1px 2px 1px #919191,
+1px 3px 1px #919191,
+1px 4px 1px #919191,
+1px 5px 1px #919191,
+1px 6px 1px #919191,
+1px 7px 1px #919191,
+1px 8px 1px #919191,
+1px 9px 1px #919191,
+1px 8px 1px #919191,
+1px 16px 4px rgba(10,10,10,0.4),
+1px 20px 8px rgba(10,10,10,0.2),
+1px 23px 33px rgba(10,10,10,0.2),
+1px 25px 40px rgba(10,10,10,0.4);
+}
